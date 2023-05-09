@@ -1,0 +1,90 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./mm.css">
+
+</head>
+<body>
+<div id="modal" class="modal is-fullscreen is-active">
+              <div class="modal-background"></div>
+              <div class="modal-content">
+                  <div class="box is-light has-text-centered has-text-weight-bold">
+                     <div class="notification is-light has-text-centered is-uppercase"> scegli la combinazione</div>
+                     <input class="input is-rounded circular-input " id="n1" type="number" min="1" max="9" required >
+                     <input class="input is-rounded circular-input" id="n2" type="number" min="1" max="9" required >
+                     <input class="input is-rounded circular-input" id="n3" type="number" min="1" max="9" required >
+                     <input class="input is-rounded circular-input" id="n4" type="number" min="1" max="9" required >
+                     
+                </div>  
+                <button id="inizio" class="button has-text-centered is-uppercase is-danger has-text-weight-bold has-text-1" onclick="start()"> comincia </div>
+                <!-- Modal content goes here -->
+              </div>
+             </div>
+    <div id="wordContainer" style="left: 0px;top: 0px;width: 100vw;height: 100vh;">   
+              
+            
+
+             <div class="columns">
+                 <div class="column is-3 has-background-grey-dark">
+                      
+                 </div>
+                 <div class="column is-6">
+                     
+                     <div class="box is-light"> 
+                     <input class="input is-rounded circular-input try1 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try1" type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try1" type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try1" type="number" min="1" max="9" required disabled>
+                     </div> 
+                     <div class="box is-light"> 
+                     <input class="input is-rounded circular-input try2 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try2 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try2 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try2 " type="number" min="1" max="9" required disabled>
+                     </div>
+                      <div class="box is-light"> 
+                     <input class="input is-rounded circular-input try3 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try3 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try3 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try3 " type="number" min="1" max="9" required disabled>
+                     </div> 
+                     <div class="box is-light"> 
+                     <input class="input is-rounded circular-input try4 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try4 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try4 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try4 " type="number" min="1" max="9" required disabled>
+                     </div>                       
+                     <div class="box is-light"> 
+                     <input class="input is-rounded circular-input try5 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try5 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try5 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try5 " type="number" min="1" max="9" required disabled>
+                     </div> 
+                     <div class="box is-light"> 
+                     <input class="input is-rounded circular-input try6 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try6 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try6 " type="number" min="1" max="9" required disabled>
+                     <input class="input is-rounded circular-input try6 " type="number" min="1" max="9" required disabled>
+                     </div>
+
+
+                 </div>
+                 <div class="column is-3 has-background-grey-dark">
+                      
+                 </div>
+
+
+            
+             
+         </div>
+      
+
+
+    </div>     
+</body>
+<script src="./mm.js" ></script>
+</html>
